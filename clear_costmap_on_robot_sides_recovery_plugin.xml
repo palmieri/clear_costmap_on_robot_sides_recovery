@@ -1,0 +1,7 @@
+<library path="lib/libclear_costmap_on_robot_sides_recovery">
+  <class name="clear_costmap_on_robot_sides_recovery/clearCostmapOnRobotSidesRecovery" type="clear_costmap_on_robot_sides_recovery::clearCostmapOnRobotSidesRecovery" base_class_type="nav_core::RecoveryBehavior">
+    <description>
+      A recovery behavior that reverts the costmap to the static map outside of a user specified window.
+    </description>
+  </class>
+</library>
